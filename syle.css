@@ -1,0 +1,114 @@
+body{
+  
+    height: 100vh;
+ 
+    font-family: 'Open Sans', sans-serif;
+background-image: url(https://images.unsplash.com/photo-1541681799731-44dfb98b5a80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    
+    display: inline-block;
+    margin-right: 40px;
+}
+.links{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: dashed ;
+    color: rgba(78, 74, 71, 0.541);
+    font-size: 20px;
+}
+.weathercard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex{
+    display: flex
+}
+.card{
+    
+    background-color:transparent;
+	backdrop-filter: blur(10px);
+	height: 300px;
+	width: 200px;
+border:groove;
+border-style:ridge c;
+	border-radius: 30px;
+   padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 50px;
+    margin: 40px;
+    color: rgba(36, 22, 22, 0.918);
+    text-decoration: darkblue;
+  
+
+	 
+}
+.search-bar{
+ border: none;
+    border-radius: 30px;
+    padding-top: 11px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+    outline: none;
+    background-color: #0f0c0c3d;
+    
+
+
+}
+
+    
+
+button{
+    border: none;
+    padding-top: 13px;
+    padding-left: 13px; 
+    padding-bottom: 10px;
+    padding-right: 15px;
+    border-radius: 40px;
+    position:relative;
+    left: 13px;
+    color: rgba(0, 0, 0, 0.658);
+    
+    background-color: rgba(245, 245, 245, 0.356);
+cursor: pointer;
+transition: 0.3s ease-in-out;
+    
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+input.searchtext{
+    color: rgba(241, 234, 224, 0.87);
+    font-family: inherit ;
+    font-size: 100%;
+ background-color: rgba(245, 245, 245, 0.356);
+}
+.title{
+    position:relative;
+    top: -350px;
+    left: -400px;
+}
