@@ -13,8 +13,6 @@ background-size: cover;
     display: flex;
     align-items: center;
     padding: 25px;
-    position: relative;
-    top: -60px;
     
 }
 nav{
@@ -58,7 +56,7 @@ border-style:ridge c;
     padding-left: 40px;
     padding-right: 50px;
     margin: 40px;
-    color: rgba(36, 22, 22, 0.918);
+    color: rgba(5, 0, 0, 0.918);
     text-decoration: darkblue;
   
 
@@ -90,12 +88,21 @@ button{
     left: 13px;
     color: rgba(0, 0, 0, 0.658);
     
-    background-color: rgba(245, 245, 245, 0.356);
+    background-color: rgba(68, 57, 57, 0.356);
 cursor: pointer;
-transition: 0.3s ease-in-out;
+
+
     
 }
-
+:hover button svg{
+    color: azure;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.header{
+    position: relative;
+    top: -60px;
+}
 .search{
     display: flex;
     justify-content: center;
@@ -103,11 +110,11 @@ transition: 0.3s ease-in-out;
 
 
 }
-input.searchtext{
-    color: white;
+input.search-bar{
+    color: rgba(243, 236, 226, 0.87);
     font-family: inherit ;
     font-size: 100%;
- background-color: rgba(245, 245, 245, 0.356);
+ background-color: rgba(39, 25, 25, 0.356);
 }
 .title{
     position:relative;
