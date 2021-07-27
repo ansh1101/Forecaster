@@ -89,14 +89,15 @@ button{
     color: rgba(0, 0, 0, 0.658);
     
     background-color: rgba(68, 57, 57, 0.356);
-cursor: pointer;
+
 
 
     
 }
-:hover button svg{
-    color: azure;
+.card .search button:hover {
+    color: rgb(134, 182, 182);
     cursor: pointer;
+    background-color: rgba(118, 122, 121, 0.63);
     transition: 0.1s;
 }
 .header{
