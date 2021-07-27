@@ -104,7 +104,7 @@ transition: 0.3s ease-in-out;
 
 }
 input.searchtext{
-    color: rgba(241, 234, 224, 0.87);
+    color: white;
     font-family: inherit ;
     font-size: 100%;
  background-color: rgba(245, 245, 245, 0.356);
