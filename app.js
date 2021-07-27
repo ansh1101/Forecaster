@@ -10,8 +10,8 @@ let weather ={
         )
         .then((response) => {
             if (!response.ok) {
-              alert("No weather found.");
-              throw new Error("No weather found.");
+              alert("No weather is found.");
+              throw new Error("No weather is found.");
             }
             return response.json();
           })
@@ -25,20 +25,20 @@ let weather ={
         const { temp,humidity} = data.main;
         const{speed} = data.wind;
          console.log(name,icon,description,temp,humidity,speed);
-        document.querySelector(".city").innerText = "Weather in " + name
-        document.querySelector(".icon").src =
+        document.querySelector(".enteredcity").innerText = "Weather in " + name
+        document.querySelector(".imgicon").src =
         "https://openweathermap.org/img/wn/" + icon + ".png";
-      document.querySelector(".description").innerText = description;
-      document.querySelector(".temp").innerText = temp + "°C";
-      document.querySelector(".humidity").innerText =
+      document.querySelector(".about").innerText = description;
+      document.querySelector(".temprature").innerText = temp + "°C";
+      document.querySelector(".humid").innerText =
         "Humidity: " + humidity + "%";
-      document.querySelector(".wind").innerText =
+      document.querySelector(".windspeed").innerText =
         "Wind speed: " + speed + " km/h";
       document.querySelector(".weather").classList.remove("loading");
   
     },
     search: function () {
-      this.fetchWeather(document.querySelector(".search-bar").value);
+      this.fetchWeather(document.querySelector(".search-box").value);
     },
   };
   
@@ -47,7 +47,7 @@ let weather ={
   });
   
   document
-    .querySelector(".search-bar")
+    .querySelector(".search-box")
     .addEventListener("keyup", function (event) {
       if (event.key == "Enter") {
         weather.search();

@@ -40,7 +40,7 @@ nav ul li{
     align-items: center;
 
 }
-.flex{
+.box{
     display: flex
 }
 .card{
@@ -62,7 +62,7 @@ border-style:ridge c;
 
 	 
 }
-.search-bar{
+.search-box{
  border: none;
     border-radius: 30px;
     padding-top: 11px;
@@ -110,7 +110,7 @@ cursor: pointer;
 
 
 }
-input.search-bar{
+input.search-box{
     color: rgba(243, 236, 226, 0.87);
     font-family: inherit ;
     font-size: 100%;
